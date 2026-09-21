@@ -1,19 +1,27 @@
 #######################################
-# Syntax Coloring Map for exp:HCSR04  #
+# Syntax Coloring Map for AGS10       #
 #######################################
 
 #######################################
 #       Datatypes (KEYWORD1)          # 
 #######################################
 
-HCSR04	KEYWORD1
+AGS10	KEYWORD1
 
 #######################################
 #  Methods and Functions (KEYWORD2)   #
 #######################################
 
-dist	KEYWORD2
+begin	KEYWORD2
+calibrateFact	KEYWORD2
+calibrateCust	KEYWORD2
+setAddress	KEYWORD2
+readResist	KEYWORD2
+readVersion	KEYWORD2
+readTVOC	KEYWORD2
+isReady	KEYWORD2
+Calc_CRC8	KEYWORD2
 
 #######################################
 #         Constants (LITERAL1)        #
-#######################################
+#######################################
