@@ -34,12 +34,6 @@ void setup() {
 
   // Initialize the sensor (uses the default Wire instance by default)
   myAGS10.begin(&Wire);
-
-  
-  Serial.println("Reading firmware version...");
-  int version = myAGS10.readVersion();
-  Serial.print("Firmware Version: ");
-  Serial.println(version);
 }
 
 void loop() {
@@ -52,12 +46,6 @@ void loop() {
     Serial.print("TVOC: ");
     Serial.print(tvoc);
     Serial.println(" ppb");
-    
-    // Read resistance (optional, mostly for debugging)
-    uint32_t resist = myAGS10.readResist();
-    Serial.print("Resistance: ");
-    Serial.print(resist);
-    Serial.println(" * 0.1 kOhm");
     Serial.println("--------------------");
     
   } else {
